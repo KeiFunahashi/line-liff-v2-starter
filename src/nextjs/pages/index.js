@@ -1,5 +1,5 @@
-import Head from "next/head";
-import packageJson from "../package.json";
+import Head from 'next/head';
+import packageJson from '../package.json';
 
 export default function Home(props) {
   /** You can access to liff and liffError object through the props.
@@ -11,7 +11,7 @@ export default function Home(props) {
   return (
     <div>
       <Head>
-        <title>LIFF Starter</title>
+        <title>LIFF Starter test</title>
       </Head>
       <div className="home">
         <h1 className="home__title">
